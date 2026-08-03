@@ -1,0 +1,7 @@
+.bmad-loop/runs/
+.bmad-loop/cache/
+.bmad-loop/policy.toml
+.venv/
+price_log.txt
+__pycache__/
+*.pyc

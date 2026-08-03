@@ -1,0 +1,88 @@
+{
+  "simulation_mode": false,
+  "check_interval_seconds": 60,
+  "_comment_1": "US market hours are 9:30 AM to 4:00 PM EST, which is 7:00 PM to 1:30 AM IST (UTC+5:30).",
+  "_comment_2": "During US Daylight Saving Time (DST) (March to November), clocks shift forward by 1 hour, so it becomes 7:00 PM to 1:30 AM IST.",
+  "_comment_3": "During US Standard Time (November to March), it shifts to 8:00 PM to 2:30 AM IST.",
+  "_comment_4": "The tracker handles DST automatically via ZoneInfo America/New_York - no manual updates needed.",
+  
+  "companies": [
+    {
+      "company_name": "Bank of Baroda",
+      "ticker": "BANKBARODA.NS",
+      "market": "IN",
+      "threshold": 245.80,
+      "test_price": 220
+    },
+    {
+      "company_name": "Oil India Limited",
+      "ticker": "OIL.NS",
+      "market": "IN",
+      "threshold": 453.00,
+      "test_price": 453
+    },
+    {
+      "company_name": "Tata Consultancy Services",
+      "ticker": "TCS.NS",
+      "market": "IN",
+      "threshold": 3500.00,
+      "test_price": 3400
+    },
+    {
+      "company_name": "Infosys",
+      "ticker": "INFY.NS",
+      "market": "IN",
+      "threshold": 1400.00,
+      "test_price": 1350
+    },
+    {
+      "company_name": "HDFC Bank",
+      "ticker": "HDFCBANK.NS",
+      "market": "IN",
+      "threshold": 755.00,
+      "test_price": 755.60
+    },
+    {
+      "company_name": "Nvidia Corporation",
+      "ticker": "NVDA",
+      "market": "US",
+      "threshold": 235.00,
+      "test_price": 235
+    },
+    {
+      "company_name": "Apple Inc",
+      "ticker": "AAPL",
+      "market": "US",
+      "threshold": 330.00,
+      "test_price": 195
+    },
+    {
+      "company_name": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "market": "US",
+      "threshold": 400.00,
+      "test_price": 390
+    },
+    {
+      "company_name": "Amazon",
+      "ticker": "AMZN",
+      "market": "US",
+      "threshold": 235.00,
+      "test_price": 210
+    },
+    {
+      "company_name": "Alphabet Inc",
+      "ticker": "GOOGL",
+      "market": "US",
+      "threshold": 325.00,
+      "test_price": 165
+    },
+    {
+      "company_name": "Meta Platforms",
+      "ticker": "META",
+      "market": "US",
+      "threshold": 608.00,
+      "test_price": 540
+    }
+  ]
+}
