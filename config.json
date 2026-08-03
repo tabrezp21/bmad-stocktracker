@@ -1,6 +1,6 @@
 {
   "simulation_mode": false,
-  "check_interval_seconds": 60,
+  "check_interval_seconds": 120,
   "_comment_1": "US market hours are 9:30 AM to 4:00 PM EST, which is 7:00 PM to 1:30 AM IST (UTC+5:30).",
   "_comment_2": "During US Daylight Saving Time (DST) (March to November), clocks shift forward by 1 hour, so it becomes 7:00 PM to 1:30 AM IST.",
   "_comment_3": "During US Standard Time (November to March), it shifts to 8:00 PM to 2:30 AM IST.",
