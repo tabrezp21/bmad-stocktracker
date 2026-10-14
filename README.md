@@ -1,6 +1,6 @@
 # Bank of Baroda Price Tracker & Alerter
 
-A lightweight Python utility that monitors the real-time share price of Bank of Baroda (`BANKBARODA.NS`) and sends a native Windows toast notification when the price falls below a configurable threshold.
+A lightweight Python utility that monitors the real-time share price of various companies like TCS, Infosys, HDFC Bank, Bank of Baroda and sends a native Windows toast notification when the price falls below a configurable threshold.
 
 ## Features
 
